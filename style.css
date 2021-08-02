@@ -1,10 +1,16 @@
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(59, 59, 59);
+}
 
 .container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #555;
+    padding: 100px;
+    color: rgb(216, 216, 216);
 }
 
 .container .stopwatch {
@@ -15,4 +21,18 @@
 
 .container .stopwatch p {
     font-size: 50px;
+}
+
+.container button {
+    background: none;
+    border: 1px solid orange;
+    color: rgb(216, 216, 216);
+    padding: 10px;
+    border-radius: 14px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    opacity: .7;
 }
